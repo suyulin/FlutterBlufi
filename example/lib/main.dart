@@ -90,7 +90,9 @@ class _MyAppState extends State<MyApp> {
             TextButton(onPressed: () async {
              await BlufiPlugin.instance.configProvision(username: 'ABCXYZ', password: '0913456789');
             }, child: Text('Config Provision')),
-
+            TextButton(onPressed: () async {
+              await BlufiPlugin.instance.negotiateSecurity();
+            }, child: Text('negotiateSecurity')),
             TextButton(onPressed: () async {
               String command ='{"cmd": "wifi_get","dev_sn": "","token": "123","info": {}}';
               await BlufiPlugin.instance.postCustomData(command);
