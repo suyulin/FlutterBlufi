@@ -1,0 +1,12 @@
+/.idea/
+/example/.fvm
+/example/ios/build
+/.dart_tool
+/.dart_tool/package_config_subset
+/.dart_tool/package_config.json
+/.dart_tool/version
+/.idea/libraries/Dart_SDK.xml
+/.idea/misc.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
+/.packages
